@@ -84,6 +84,7 @@ def getReadings():
 
     conn = sqlite3.connect('databasename.db')
     c = conn.cursor()
+        #The 'insert into' line is commented out on the first run and the 'create table' line is not to create the table, Then it is swapped in order to add the values to the table without continuosly creating tables. 
    # c.execute('CREATE TABLE databasetablename(getDistant INT, getTemp INT, getHumidity INT)')
     c.execute('INSERT INTO databasetable VALUES(?, ?, ?)',(getDistant(), getTemp(), getHumidity()))
     conn.commit()
