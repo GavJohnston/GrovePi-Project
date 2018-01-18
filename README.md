@@ -8,3 +8,15 @@ Using Dweet.io I was able to push the readings to a html file and show the readi
 By using Sqlite 3 I was able to store reading a number of readings to a local database
 
 The configurationfile contains the dweet.io thing name used in this project.
+
+
+
+From the first screenshot you can see a rise in both the temperature and humidity as my hand holds onto the sensor.
+
+
+![](img/example%20rise.PNG)
+
+
+![](img/2%20graphs.PNG)
+
+![](img/3rdgraph.PNG)
